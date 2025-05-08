@@ -1,0 +1,249 @@
+.SideRight {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.windowOptions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.windowOptions svg {
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-image: linear-gradient(to right, transparent, rgba(255,255,255,0.1));
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.profile > div:first-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.profilePicture img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.profilePicture::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 255, 0);
+    width: 10px;
+    height: 10px;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 50%;
+    border: 1px solid rgb(36, 36, 36);
+}
+/* .profile > div:first-of-type svg {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+} */
+.profileInfos {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    margin-left: 5px;
+}
+.status {
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+}
+/* .profileInfos select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    width: 60px;
+    margin-left: -4px;
+    cursor: pointer;
+} */
+.profile > div:last-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.profile > div:last-of-type svg {
+    cursor: pointer;
+}
+
+.userSearching {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-top: 15px;
+}
+.divUserSearchBar {
+    flex-grow: 1;
+    display: flex;
+    position: relative;
+    background-color: rgba(255,255,255,0.1);
+    padding: 10px;
+    padding-right: 25px;
+    border-radius: 5px;
+}
+.divUserSearchBar svg {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    fill: white;
+}
+#userSearchBar {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    caret-color: white;
+    color: white;
+}
+
+.userAdd {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userSearch {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userFavorites {
+    padding-top: 15px;
+}
+.userFavorites > span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    gap: 5px;
+    cursor: pointer;
+}
+.userFavorites span svg {
+    height: 15px;
+    width: 15px;
+    margin-top: 2px;
+}
+.favoriteFriend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.favoriteFriend:hover {
+    background-color: rgba(255,255,255,0.05);
+}
+.listeFavoriteFriend {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0;
+    margin-top: 15px;
+}
+.favoriteFriend svg {
+    height: 45px;
+    width: 45px;
+}
+.divFavoriteFriend {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.favoriteFriend >div {
+    position: relative;
+}
+.favoriteFriend > div:first-of-type::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 255, 0);
+    width: 10px;
+    height: 10px;
+    bottom: 7px;
+    right: 3px;
+    border-radius: 50%;
+    border: 1px solid rgb(36, 36, 36);
+}
+.divFavoriteFriend img {
+    width: 15px;
+    margin-left: 5%;
+}
+.divFavoriteFriend span:first-of-type {
+    color: rgb(156, 187, 215);
+    display: flex;
+    align-items: center;
+}
+.divFavoriteFriend span:last-of-type {
+    color: rgba(255,255,255,0.75);
+    font-size: 14px;
+}
+.gamePlaying {
+    width: 30px;
+    height: 30px;
+}
+.gamePlaying img {
+    width: 100%;
+}
+.userFriends > span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    gap: 5px;
+    cursor: pointer;
+}
+.userFriends span svg {
+    height: 15px;
+    width: 15px;
+    margin-top: 2px;
+}
+.userChatsGroups {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 60px;
+}
+.userChatsGroups svg {
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+}
+.btnChatsGroups {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+    font-weight: bold;
+    flex-grow: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btnChatsGroups:hover {
+    background-color: rgba(255,255,255,0.2);
+}

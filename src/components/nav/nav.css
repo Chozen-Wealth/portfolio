@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+nav > div:first-of-type {
+    display: flex;
+    gap: 20px;
+}
+nav a img {
+    width: 50px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255,0.5);
+    font-weight: bold
+}
+li a.active {
+    color: white;
+}
+nav > div:last-of-type {
+    display: flex;
+    align-items: center;
+}
+nav >div:last-of-type svg {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+nav >div:last-of-type svg:hover {
+    background-color: rgba(255, 255, 255,0.1);
+    padding: 10px;
+    border-radius: 50%;
+}

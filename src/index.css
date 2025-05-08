@@ -1,0 +1,12 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* background-color: rgb(36, 36, 36); */
+  margin: 0;
+  background-image: linear-gradient(rgba(36, 36, 36,0.85), rgba(36, 36, 36,0.9)),url(../public/bg2.jpg);
+  background-size: cover;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}

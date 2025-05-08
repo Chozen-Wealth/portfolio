@@ -1,0 +1,54 @@
+.SideLeft {
+    width: 15%;
+}
+.filter {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.filter-element {
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    border-radius: 3px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.filter-element:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+.filter-element.active {
+    color: white;
+    border-left: 5px solid rgb(15, 121, 176);
+    padding: 5px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.filter-element.active .numberBubble {
+    color: white;
+}
+.numberBubble {
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    padding: 1px 10px;
+    padding-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(1px);
+}
+hr {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.filter-2 {
+    display: flex;
+    flex-direction: column;
+}

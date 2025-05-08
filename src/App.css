@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.AppLeft {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 15px;
+  height: 100%;
+}
+.AppRight {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  padding-top: 5px;
+  height: 100%;
+}
+.MainSection {
+  display: flex;
+  padding-top: 15px;
+  width: 100%;
+}
