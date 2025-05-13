@@ -1,5 +1,5 @@
 import './nav.css'
-import logo from '../../../public/battle_net.webp'
+import logo from '../../assets/logo1.png'
 
 export default function Nav() {
     return(

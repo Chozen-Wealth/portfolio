@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Batman",
+        "categorie": "vitrine",
+        "image": "../../../public/batman.png"
+    },
+    {
+        "title": "Overwatch",
+        "categorie": "vitrine",
+        "image": "../../../public/overwatch.jpg"
+    }
+]
