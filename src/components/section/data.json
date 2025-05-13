@@ -8,5 +8,10 @@
         "title": "Overwatch",
         "categorie": "vitrine",
         "image": "/portfolio/overwatch.jpg"
+    },
+    {
+        "title": "Batman",
+        "categorie": "chaussure",
+        "image": "/portfolio/batman.png"
     }
 ]
