@@ -2,6 +2,7 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    box-sizing: border-box;
 }
 nav > div:first-of-type {
     display: flex;
