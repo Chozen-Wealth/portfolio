@@ -2,11 +2,11 @@
     {
         "title": "Batman",
         "categorie": "vitrine",
-        "image": "/batman.png"
+        "image": "src/assets/batman.png"
     },
     {
         "title": "Overwatch",
         "categorie": "vitrine",
-        "image": "/overwatch.jpg"
+        "image": "src/assets/overwatch.jpg"
     }
 ]

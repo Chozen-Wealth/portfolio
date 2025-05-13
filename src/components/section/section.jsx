@@ -13,7 +13,7 @@ export default function Section() {
                 {data.map(element => (   
                     <div className='game' key={element.title}>
                         <div className='gamePicture'>
-                            <img className='gamePictureIn' src={element.image} alt="" />
+                            <img className='gamePictureIn' src={element.image} alt={element.title} />
                         </div>
                         <div className='gameInfos'>
                             <span className='gameName'>{element.title}</span>
