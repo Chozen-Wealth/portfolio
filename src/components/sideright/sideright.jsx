@@ -1,5 +1,5 @@
 import './sideright.css'
-import pp from "../../../public/daisuke-kambe.jpg"
+import pp from "/daisuke-kambe.jpg"
 
 export default function SideRight() {
     return(
