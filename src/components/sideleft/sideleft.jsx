@@ -11,7 +11,7 @@ export default function SideLeft() {
         <div className='SideLeft'>
             <ul className='filter'>
                 {portfolio.map(element => (
-                    <li onClick={()=> {setActive(element)}} className={`filter-element ${active == element ? "active" : ""}`}>{element}<span className='numberBubble'>{data.length}</span></li>
+                    <li key={element} onClick={()=> {setActive(element)}} className={`filter-element ${active === element ? "active" : ""}`}>{element}<span className='numberBubble'>{data.length}</span></li>
                 ))}
             </ul>
         </div>
