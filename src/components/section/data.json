@@ -1,17 +1,32 @@
 [
     {
         "title": "Batman",
-        "categorie": "vitrine",
+        "categorie": "Vitrine",
         "image": "/portfolio/batman.png"
     },
     {
-        "title": "Overwatch",
-        "categorie": "vitrine",
-        "image": "/portfolio/overwatch.jpg"
+        "title": "CBIENBON",
+        "categorie": "Restaurant",
+        "image": "/portfolio/CBIENBONcov.png"
     },
     {
-        "title": "Batman",
-        "categorie": "chaussure",
-        "image": "/portfolio/batman.png"
+        "title": "ZeBarber",
+        "categorie": "E-commerce",
+        "image": "/portfolio/ZeBarberCov.png"
+    },
+    {
+        "title": "Start CSS",
+        "categorie": "Vitrine",
+        "image": "/portfolio/StartCSScov.png"
+    },
+    {
+        "title": "Spatial",
+        "categorie": "Vitrine",
+        "image": "/portfolio/SpatialCov.png"
+    },
+    {
+        "title": "Gary Restaurant",
+        "categorie": "Restaurant",
+        "image": "/portfolio/GaryResto.png"
     }
 ]

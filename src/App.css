@@ -26,4 +26,5 @@
   display: flex;
   padding-top: 15px;
   width: 100%;
+  height: calc(100% - 120px);
 }
