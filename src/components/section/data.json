@@ -28,5 +28,10 @@
         "title": "Gary Restaurant",
         "categorie": "Restaurant",
         "image": "/portfolio/GaryResto.png"
+    },
+    {
+        "title": "Saluut",
+        "categorie": "Yooo",
+        "image": "/portfolio/GaryResto.png"
     }
 ]
